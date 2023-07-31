@@ -10,6 +10,7 @@ const giantLPTokenABI = require("./artifacts/giant_lp_abi.json");
 const lpTokenABI = require("./artifacts/lp_token_abi.json");
 const smartWalletABI = require("./artifacts/smart_wallet_abi.json");
 const rageQuitAssistantABI = require("./artifacts/rage_quit_assistant.json");
+const frenDelegationBribesABI = require("./artifacts/fren_delegation_bribes_abi.json");
 
 const lsdContracts = {
     LSDN_FACTORY: lsdnFactoryABI,
@@ -23,7 +24,8 @@ const lsdContracts = {
     GIANT_LP: giantLPTokenABI,
     LP_TOKEN: lpTokenABI,
     SMART_WALLET: smartWalletABI,
-    RAGE_QUIT_ASSISTANT: rageQuitAssistantABI
+    RAGE_QUIT_ASSISTANT: rageQuitAssistantABI,
+    FREN_DELEGATION_BRIBES: frenDelegationBribesABI
 };
 
 module.exports = {
